@@ -15,6 +15,10 @@ import org.graphstream.ui.swingViewer.Viewer;
 public class NetworkAnalysisAndGenerate {
     private JPanel panelMain;
     private JPanel panelNetworkDisplay;
+    private JTextField textFieldFilePath;
+    private JTextField textField1;
+    private JTextField textField2;
+    private JTextField textField3;
 
     public NetworkAnalysisAndGenerate() {
         Graph graph = new SingleGraph("Tutorial 1");
@@ -96,17 +100,48 @@ public class NetworkAnalysisAndGenerate {
      */
     private void $$$setupUI$$$() {
         panelMain = new JPanel();
-        panelMain.setLayout(new FormLayout("fill:275px:noGrow,left:4dlu:noGrow,fill:585dlu:noGrow", "center:d:grow"));
+        panelMain.setLayout(new FormLayout("fill:275px:noGrow,left:4dlu:noGrow,fill:585dlu:grow", "center:d:grow"));
         panelMain.setAutoscrolls(false);
         panelMain.setMinimumSize(new Dimension(100, 480));
         final JPanel panel1 = new JPanel();
-        panel1.setLayout(new FormLayout("fill:d:grow", "center:338px:noGrow,top:4dlu:noGrow,center:326px:noGrow"));
+        panel1.setLayout(new FormLayout("fill:d:grow", "center:338px:grow,top:4dlu:noGrow,center:326px:grow"));
         CellConstraints cc = new CellConstraints();
         panelMain.add(panel1, cc.xy(1, 1, CellConstraints.DEFAULT, CellConstraints.FILL));
         final JPanel panel2 = new JPanel();
-        panel2.setLayout(new FormLayout("fill:d:grow", "center:d:grow"));
+        panel2.setLayout(new FormLayout("fill:16px:noGrow,left:4dlu:noGrow,fill:80px:grow,left:4dlu:noGrow,fill:140px:noGrow,left:4dlu:noGrow,fill:d:grow", "center:40px:noGrow,top:5dlu:noGrow,center:60px:noGrow,top:5dlu:noGrow,center:60px:noGrow,top:5dlu:noGrow,center:63px:noGrow,top:5dlu:noGrow,center:60px:grow"));
         panel1.add(panel2, cc.xy(1, 1, CellConstraints.DEFAULT, CellConstraints.FILL));
         panel2.setBorder(BorderFactory.createTitledBorder("Network Info"));
+        final com.intellij.uiDesigner.core.Spacer spacer1 = new com.intellij.uiDesigner.core.Spacer();
+        panel2.add(spacer1, cc.xy(3, 1, CellConstraints.DEFAULT, CellConstraints.FILL));
+        final com.intellij.uiDesigner.core.Spacer spacer2 = new com.intellij.uiDesigner.core.Spacer();
+        panel2.add(spacer2, cc.xy(1, 3, CellConstraints.FILL, CellConstraints.DEFAULT));
+        final JLabel label1 = new JLabel();
+        label1.setText("File Path");
+        panel2.add(label1, cc.xy(3, 3, CellConstraints.DEFAULT, CellConstraints.TOP));
+        textFieldFilePath = new JTextField();
+        textFieldFilePath.setEditable(false);
+        textFieldFilePath.setText("");
+        panel2.add(textFieldFilePath, cc.xy(5, 3, CellConstraints.FILL, CellConstraints.TOP));
+        final JLabel label2 = new JLabel();
+        label2.setText("Network Type");
+        panel2.add(label2, cc.xy(3, 5, CellConstraints.DEFAULT, CellConstraints.TOP));
+        textField1 = new JTextField();
+        textField1.setEditable(false);
+        panel2.add(textField1, cc.xy(5, 5, CellConstraints.FILL, CellConstraints.TOP));
+        final JLabel label3 = new JLabel();
+        label3.setText("Node Number");
+        panel2.add(label3, cc.xy(3, 7, CellConstraints.DEFAULT, CellConstraints.TOP));
+        textField2 = new JTextField();
+        textField2.setEditable(false);
+        panel2.add(textField2, cc.xy(5, 7, CellConstraints.FILL, CellConstraints.TOP));
+        final JLabel label4 = new JLabel();
+        label4.setText("Edge Number");
+        panel2.add(label4, cc.xy(3, 9, CellConstraints.DEFAULT, CellConstraints.TOP));
+        textField3 = new JTextField();
+        textField3.setEditable(false);
+        panel2.add(textField3, cc.xy(5, 9, CellConstraints.FILL, CellConstraints.TOP));
+        final com.intellij.uiDesigner.core.Spacer spacer3 = new com.intellij.uiDesigner.core.Spacer();
+        panel2.add(spacer3, cc.xy(7, 1, CellConstraints.FILL, CellConstraints.DEFAULT));
         final JPanel panel3 = new JPanel();
         panel3.setLayout(new FormLayout("fill:d:grow", "center:d:grow"));
         panel1.add(panel3, cc.xy(1, 3, CellConstraints.DEFAULT, CellConstraints.FILL));
