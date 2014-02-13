@@ -71,24 +71,44 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="NetworkAnalysisAndGenerate.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.java">
+        <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="0" selection-start="8166" selection-end="8166" vertical-scroll-proportion="0.6763754" vertical-offset="0" max-vertical-offset="618">
+            <state line="24" column="19" selection-start="713" selection-end="713" vertical-scroll-proportion="0.23450135" vertical-offset="255" max-vertical-offset="1387">
               <folding>
-                <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
-                <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-                <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+                <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-                <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="NetworkSettings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="22" selection-start="2029" selection-end="2029" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="2014">
+              <folding>
+                <element signature="e#680#1627#0" expanded="true" />
+                <element signature="e#1616#1617#0" expanded="true" />
+                <element signature="e#1668#1827#0" expanded="true" />
+                <element signature="e#1816#1817#0" expanded="true" />
+                <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+                <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkSettings.form" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="NetworkAnalysisAndGenerate.form" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.form">
+        <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
@@ -109,6 +129,11 @@
         <option value="$PROJECT_DIR$/src/sdklfjalsj.form" />
         <option value="$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.form" />
         <option value="$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.java" />
+        <option value="$PROJECT_DIR$/src/NetworkSettings.form" />
+        <option value="$PROJECT_DIR$/src/NetworkSettings.java" />
+        <option value="$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.form" />
+        <option value="$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java" />
+        <option value="$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java" />
       </list>
     </option>
   </component>
@@ -116,8 +141,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -147,7 +174,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,12 +206,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-complex-network-analysis-and-generate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="NetworkAnalysisAndGenerate" />
               <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -210,7 +259,12 @@
     <property name="FullScreen" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
-  <component name="RunManager" selected="Application.NetworkAnalysisAndGenerate">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\JavaProjects\src\com\yangfan\network" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NetworkAnalysisAndGenerate (1)">
     <configuration default="false" name="NetworkGenerateAndAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NetworkGenerateAndAnalysis" />
@@ -462,9 +516,38 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.NetworkGenerateAndAnalysis" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NetworkAnalysisAndGenerate" />
+    <configuration default="false" name="NetworkAnalysisAndGenerate (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yangfan.network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yangfan.network.NetworkAnalysisAndGenerate" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="simple-complex-network-analysis-and-generate" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.NetworkAnalysisAndGenerate (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NetworkGenerateAndAnalysis" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NetworkAnalysisAndGenerate" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -496,12 +579,13 @@
       <workItem from="1391652878834" duration="2164000" />
       <workItem from="1391930774920" duration="5333000" />
       <workItem from="1392003788557" duration="2299000" />
-      <workItem from="1392168975778" duration="9677000" />
+      <workItem from="1392168975778" duration="20528000" />
+      <workItem from="1392259925468" duration="8228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52476000" />
+    <option name="totallyTimeSpent" value="71555000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -524,7 +608,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15181269" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -535,20 +619,20 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39898133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39728352" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22280967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13066465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32427844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -556,13 +640,13 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15256798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -580,8 +664,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -606,117 +690,135 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="0" selection-start="7810" selection-end="7810" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3971">
+          <folding>
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="40" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="2090">
+          <folding>
+            <element signature="e#680#1627#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1668#1827#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="119" column="8" selection-start="4628" selection-end="4628" vertical-scroll-proportion="0.0" vertical-offset="2261" max-vertical-offset="2584">
           <folding>
-            <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="2166">
           <folding>
-            <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.form">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="5" selection-start="2413" selection-end="2413" vertical-scroll-proportion="0.0" vertical-offset="1463" max-vertical-offset="2033">
           <folding>
-            <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.form">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="7" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.0" vertical-offset="1748" max-vertical-offset="2071">
           <folding>
-            <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.form">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437">
           <folding>
-            <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.form">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="19" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
           <folding>
-            <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.form">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
@@ -728,22 +830,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.form">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NetworkAnalysisAndGenerate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="0" selection-start="8166" selection-end="8166" vertical-scroll-proportion="0.6763754" vertical-offset="0" max-vertical-offset="618">
+        <state line="50" column="22" selection-start="2029" selection-end="2029" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="2014">
           <folding>
-            <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="e#680#1627#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1668#1827#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="19" selection-start="713" selection-end="713" vertical-scroll-proportion="0.23450135" vertical-offset="255" max-vertical-offset="1387">
+          <folding>
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
           </folding>
         </state>
       </provider>
