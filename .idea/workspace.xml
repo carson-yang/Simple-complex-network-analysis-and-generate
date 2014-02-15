@@ -73,18 +73,19 @@
       <file leaf-file-name="NetworkAnalysisAndGenerate.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="5" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.20465116" vertical-offset="286" max-vertical-offset="931">
+            <state line="338" column="48" selection-start="13942" selection-end="13942" vertical-scroll-proportion="0.5813953" vertical-offset="309" max-vertical-offset="969">
               <folding>
                 <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-                <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+                <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+                <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -583,12 +584,12 @@
       <workItem from="1392259925468" duration="11308000" />
       <workItem from="1392380330783" duration="3304000" />
       <workItem from="1392433473378" duration="45000" />
-      <workItem from="1392433558912" duration="2859000" />
+      <workItem from="1392433558912" duration="3315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80843000" />
+    <option name="totallyTimeSpent" value="81299000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -699,14 +700,15 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -737,14 +739,15 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -775,14 +778,15 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -813,14 +817,15 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -851,14 +856,15 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -872,14 +878,15 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -898,14 +905,15 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -924,14 +932,15 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -950,14 +959,15 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -976,14 +986,15 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -1025,18 +1036,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="5" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.20465116" vertical-offset="286" max-vertical-offset="931">
+        <state line="338" column="48" selection-start="13942" selection-end="13942" vertical-scroll-proportion="0.5813953" vertical-offset="309" max-vertical-offset="969">
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />

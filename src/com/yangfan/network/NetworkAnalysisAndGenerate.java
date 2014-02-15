@@ -323,11 +323,52 @@ public class NetworkAnalysisAndGenerate {
 
     }
 
+    class FileFilterGML extends FileFilter {  //file filter
+
+        public boolean accept(File file) {
+            if (file.isDirectory())
+                return true;
+            return file.getName().endsWith(".gml");
+        }
+
+        public String getDescription() {
+            return "*.gml";
+        }
+    }
+
     class OpenGMLFile implements ActionListener {
 
         @Override
         public void actionPerformed(ActionEvent e) {
+            JFileChooser fileChooser = new JFileChooser(".");
+            fileChooser.setAcceptAllFileFilterUsed(false);
+            fileChooser.addChoosableFileFilter(new FileFilterGML());
+            if (fileChooser.showOpenDialog(mainFrame) == JFileChooser.APPROVE_OPTION) {
+                File file = fileChooser.getSelectedFile();
+                Graph graph = new MultiGraph("Complex Network");
+                FileSource fs = null;
+                try {
+                    fs = FileSourceFactory.sourceFor(file.getAbsolutePath());
+                } catch (IOException ee) {
+                    ee.printStackTrace();
+                }
 
+                fs.addSink(graph);
+
+                try {
+                    fs.readAll(file.getAbsolutePath());
+                } catch (IOException ee) {
+                    ee.printStackTrace();
+                } finally {
+                    fs.removeSink(graph);
+                }
+
+                displayNetwork(graph);
+                textFieldFilePath.setText(file.getAbsolutePath());
+                textFieldNetType.setText("NULL");
+                textFieldNodeNum.setText(Integer.toString(graph.getNodeCount()));
+                textFieldEdgeNum.setText(Integer.toString(graph.getEdgeCount()));
+            }
         }
 
     }
