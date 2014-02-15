@@ -73,7 +73,7 @@
       <file leaf-file-name="NetworkAnalysisAndGenerate.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="7" selection-start="7312" selection-end="7312" vertical-scroll-proportion="0.54698795" vertical-offset="286" max-vertical-offset="931">
+            <state line="59" column="5" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.20465116" vertical-offset="286" max-vertical-offset="931">
               <folding>
                 <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -583,12 +583,12 @@
       <workItem from="1392259925468" duration="11308000" />
       <workItem from="1392380330783" duration="3304000" />
       <workItem from="1392433473378" duration="45000" />
-      <workItem from="1392433558912" duration="2681000" />
+      <workItem from="1392433558912" duration="2859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80665000" />
+    <option name="totallyTimeSpent" value="80843000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -635,7 +635,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12990937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32291666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32291666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1025,7 +1025,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="7" selection-start="7312" selection-end="7312" vertical-scroll-proportion="0.54698795" vertical-offset="286" max-vertical-offset="931">
+        <state line="59" column="5" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.20465116" vertical-offset="286" max-vertical-offset="931">
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />

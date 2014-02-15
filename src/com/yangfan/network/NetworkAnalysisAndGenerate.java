@@ -214,12 +214,111 @@ public class NetworkAnalysisAndGenerate {
 
     class ScaleFreeNetworkGenerate implements ActionListener {
 
+        protected String styleSheet =
+                "node {" +
+                        "   fill-color: green;" +
+                        "}" +
+                        "node.marked {" +
+                        "   fill-color: red;" +
+                        "}";
+
         @Override
         public void actionPerformed(ActionEvent e) {
             nodeNumber = -1;
             new NetworkSettings(mainClass, mainFrame);
             if (nodeNumber == -1)
                 return;
+
+            //generate scale-free network
+
+            Graph graph = new SingleGraph("Scale Network");
+
+            int nodeSum = nodeNumber;
+            int edgeSum = edgeNumber;
+
+            boolean visited[][] = new boolean[nodeSum + 5][nodeSum + 5];
+            for (int i = 0; i < visited.length; ++i)
+                Arrays.fill(visited[i], false);
+
+            //node color
+
+            graph.addAttribute("ui.stylesheet", styleSheet);
+            //graph.display();
+            graph.setStrict(false);
+
+            //generate scale-free network
+
+            int delta_m = (int) (nodeSum - Math.sqrt(nodeSum * nodeSum - 2 * edgeSum));
+            if (delta_m < 2) delta_m = 2;
+            else if (delta_m > edgeSum) delta_m = edgeSum;
+
+            double CDF[] = new double[nodeSum + 5];
+
+            //Initialize a simple network
+
+            graph.addNode("0");
+            graph.addNode("1");
+            graph.addNode("2");
+            String edgeId = "edge0to1";
+            graph.addEdge(edgeId, 0, 1, false);
+            edgeId = "edge1to2";
+            graph.addEdge(edgeId, 1, 2, false);
+            edgeId = "edge2to0";
+            graph.addEdge(edgeId, 2, 0, false);
+
+
+            while (graph.getNodeCount() < nodeSum) {
+                int new_node = graph.getNodeCount();
+                graph.addNode(Integer.toString(graph.getNodeCount()));
+
+                int edges = Math.min(delta_m, graph.getNodeCount() - 1);
+
+                for (int tempEdge = 0; tempEdge < edges; ++tempEdge) {
+                    double rand = Math.random();
+                    int tempEdgeSum = graph.getNodeCount();
+                    CDF[0] = (double) graph.getNode("0").getDegree() / (tempEdgeSum * 2);
+
+                    for (int tempNode = 1; tempNode < graph.getNodeCount(); ++tempNode) {
+                        CDF[tempNode] = CDF[tempNode - 1] + (double) graph.getNode(Integer.toString(tempNode)).getDegree() / (tempEdgeSum * 2);
+
+                        if (rand < CDF[0] || rand >= CDF[tempNode - 1] && rand < CDF[tempNode]) {
+                            int destNode = 0;
+                            if (rand < CDF[0])
+                                destNode = 0;
+                            else
+                                destNode = tempNode;
+
+                            while (new_node == destNode || visited[new_node][destNode]) {
+                                destNode++;
+                                if (destNode >= graph.getNodeCount() - 1)
+                                    destNode = 0;
+                            }
+                            edgeId = "edge" + Integer.toString(new_node) + "to" + Integer.toString(destNode);
+                            graph.addEdge(edgeId, new_node, destNode, false);
+                            visited[new_node][destNode] = true;
+                            visited[destNode][new_node] = true;
+                            break;
+                        }
+
+                    }
+                }
+            }
+
+            //node label
+
+            for (Node node : graph) {
+                node.addAttribute("ui.label", node.getId());
+            }
+
+            graph.getNode("0").setAttribute("ui.class", "marked");
+            graph.getNode("1").setAttribute("ui.class", "marked");
+            graph.getNode("2").setAttribute("ui.class", "marked");
+
+            displayNetwork(graph);
+            textFieldFilePath.setText("NULL");
+            textFieldNetType.setText("Scale-Free Network");
+            textFieldNodeNum.setText(Integer.toString(nodeNumber));
+            textFieldEdgeNum.setText(Integer.toString(edgeNumber));
         }
 
     }
