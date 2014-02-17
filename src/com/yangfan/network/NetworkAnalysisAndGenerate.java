@@ -18,9 +18,12 @@ import org.graphstream.ui.swingViewer.Viewer;
 import org.graphstream.stream.file.FileSource;
 import org.graphstream.stream.file.FileSourceFactory;
 
+import java.awt.geom.Arc2D;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 
 
 /**
@@ -50,6 +53,74 @@ public class NetworkAnalysisAndGenerate {
         panelNetworkDisplay.add(view, myConstraint.xy(1, 1, CellConstraints.FILL, CellConstraints.FILL));
         viewer.enableAutoLayout();
         panelNetworkDisplay.updateUI();
+    }
+
+    private double computeTheShortestPath(Graph graph) {
+        double sumOfShort = 0.0;
+
+        for (Node node : graph) {
+            int[] dist = new int[graph.getNodeCount()];
+            boolean[] visited = new boolean[graph.getNodeCount()];
+
+            final int INF = Integer.MAX_VALUE - 1000;
+
+            for (int i = 0; i < graph.getNodeCount(); ++i)
+                dist[i] = INF;
+            dist[node.getIndex()] = 0;
+
+            for (int i = 0; i < graph.getNodeCount(); ++i)
+                visited[i] = false;
+
+            for (int i = 1; i < graph.getNodeCount(); ++i) {
+                int minValue = INF;
+                int minNode = 0;
+                for (int j = 0; j < graph.getNodeCount(); ++j) {
+                    if (!visited[j] && dist[j] < minValue) {
+                        minNode = j;
+                        minValue = dist[j];
+                    }
+                }
+                if (minValue == INF) break;
+                visited[minNode] = true;
+
+                Node indexNode = graph.getNode(minNode);
+                Iterator<Edge> leavingEdges = indexNode.getEnteringEdgeIterator();
+
+                while (leavingEdges.hasNext()) {
+                    Edge edge = leavingEdges.next();
+                    Node nodeTemp = edge.getOpposite(indexNode);
+                    if (dist[nodeTemp.getIndex()] > minValue + 1) {
+                        dist[nodeTemp.getIndex()] = minValue + 1;
+                    }
+                }
+
+            }
+
+            for (int i = 0; i < graph.getNodeCount(); ++i)
+                sumOfShort += dist[i];
+        }
+
+        return sumOfShort * 1.0 / (graph.getNodeCount() * (graph.getNodeCount() - 1));
+    }
+
+    private void networkAnalysis(Graph graph) {
+
+        //compute node average degree
+
+        long degreeSum = 0;
+        for (Edge eade : graph.getEachEdge()) {
+            if (eade.isDirected())
+                degreeSum += 2;
+            else
+                degreeSum += 4;
+        }
+        double averageDegree = 1.0 * degreeSum / graph.getNodeCount();
+        textFieldAveDeg.setText(Double.toString(averageDegree));
+
+        //compute the shortest path of network
+
+        textFieldShortPath.setText(String.format("%.2f", computeTheShortestPath(graph)));
+
     }
 
     {
@@ -145,6 +216,10 @@ public class NetworkAnalysisAndGenerate {
         return panelMain;
     }
 
+    /* private void preProcessGraphTwo(Graph graph,MultiGraph multiGraph){
+
+    }*/
+
     class RandomNetworkGenerate implements ActionListener {
 
         @Override
@@ -208,6 +283,7 @@ public class NetworkAnalysisAndGenerate {
             textFieldNetType.setText("Random Network");
             textFieldNodeNum.setText(Integer.toString(nodeNumber));
             textFieldEdgeNum.setText(Integer.toString(edgeNumber));
+            networkAnalysis(graph);
         }
 
     }
@@ -319,6 +395,7 @@ public class NetworkAnalysisAndGenerate {
             textFieldNetType.setText("Scale-Free Network");
             textFieldNodeNum.setText(Integer.toString(nodeNumber));
             textFieldEdgeNum.setText(Integer.toString(edgeNumber));
+            networkAnalysis(graph);
         }
 
     }
@@ -345,7 +422,7 @@ public class NetworkAnalysisAndGenerate {
             fileChooser.addChoosableFileFilter(new FileFilterGML());
             if (fileChooser.showOpenDialog(mainFrame) == JFileChooser.APPROVE_OPTION) {
                 File file = fileChooser.getSelectedFile();
-                Graph graph = new MultiGraph("Complex Network");
+                Graph graph = new SingleGraph("Complex Network");
                 FileSource fs = null;
                 try {
                     fs = FileSourceFactory.sourceFor(file.getAbsolutePath());
@@ -368,6 +445,7 @@ public class NetworkAnalysisAndGenerate {
                 textFieldNetType.setText("NULL");
                 textFieldNodeNum.setText(Integer.toString(graph.getNodeCount()));
                 textFieldEdgeNum.setText(Integer.toString(graph.getEdgeCount()));
+                networkAnalysis(graph);
             }
         }
 

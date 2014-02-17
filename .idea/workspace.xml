@@ -16,6 +16,11 @@
     <rightPanel />
     <splitter proportion="0.5" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/simple-complex-network-analysis-and-generate$NetworkAnalysisAndGenerate__1_.coverage" NAME="NetworkAnalysisAndGenerate (1) Coverage Results" MODIFIED="1392623989948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.yangfan.network.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -73,19 +78,16 @@
       <file leaf-file-name="NetworkAnalysisAndGenerate.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="338" column="48" selection-start="13942" selection-end="13942" vertical-scroll-proportion="0.5813953" vertical-offset="309" max-vertical-offset="969">
+            <state line="57" column="55" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.31472868" vertical-offset="215" max-vertical-offset="2261">
               <folding>
                 <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-                <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-                <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-                <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-                <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-                <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+                <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+                <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+                <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
                 <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-                <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -94,10 +96,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AbstractButton.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/javax/swing/AbstractButton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2017" column="0" selection-start="71674" selection-end="71674" vertical-scroll-proportion="0.0" vertical-offset="38323" max-vertical-offset="59033">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultButtonModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/javax/swing/DefaultButtonModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="401" column="0" selection-start="10206" selection-end="10206" vertical-scroll-proportion="0.0" vertical-offset="7619" max-vertical-offset="10241">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="NetworkSettings.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="1135" max-vertical-offset="1767">
+            <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2128">
               <folding />
             </state>
           </provider>
@@ -175,6 +195,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -236,7 +257,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -535,12 +555,14 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="simple-complex-network-analysis-and-generate" />
       <envs />
+      <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -584,12 +606,15 @@
       <workItem from="1392259925468" duration="11308000" />
       <workItem from="1392380330783" duration="3304000" />
       <workItem from="1392433473378" duration="45000" />
-      <workItem from="1392433558912" duration="3315000" />
+      <workItem from="1392433558912" duration="4236000" />
+      <workItem from="1392512543784" duration="302000" />
+      <workItem from="1392518868040" duration="6595000" />
+      <workItem from="1392602827702" duration="19643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81299000" />
+    <option name="totallyTimeSpent" value="108760000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -612,7 +637,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15181269" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -623,20 +648,21 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39728352" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39583334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738096" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12990937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32291666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12990937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -644,13 +670,13 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15256798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -668,8 +694,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -696,19 +722,133 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="365" column="14" selection-start="14831" selection-end="14831" vertical-scroll-proportion="0.0" vertical-offset="1786" max-vertical-offset="1786">
+          <folding>
+            <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/javax/swing/AbstractButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2017" column="0" selection-start="71674" selection-end="71674" vertical-scroll-proportion="0.0" vertical-offset="38323" max-vertical-offset="59033">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/javax/swing/DefaultButtonModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="401" column="0" selection-start="10206" selection-end="10206" vertical-scroll-proportion="0.0" vertical-offset="7619" max-vertical-offset="10241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="5" selection-start="9402" selection-end="9402" vertical-scroll-proportion="0.0" vertical-offset="1064" max-vertical-offset="1064">
+          <folding>
+            <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="7" selection-start="7312" selection-end="7312" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="969">
+          <folding>
+            <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="327" column="49" selection-start="13317" selection-end="13317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3458">
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -739,15 +879,12 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -778,15 +915,12 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -817,15 +951,12 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -856,15 +987,12 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -878,15 +1006,12 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -905,15 +1030,12 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -932,15 +1054,12 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -959,15 +1078,12 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -986,15 +1102,12 @@
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -1034,21 +1147,37 @@
         <state />
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/javax/swing/AbstractButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2017" column="0" selection-start="71674" selection-end="71674" vertical-scroll-proportion="0.0" vertical-offset="36641" max-vertical-offset="57456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/javax/swing/DefaultButtonModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="401" column="0" selection-start="10206" selection-end="10206" vertical-scroll-proportion="0.0" vertical-offset="6864" max-vertical-offset="9443">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="2" selection-start="664" selection-end="664" vertical-scroll-proportion="0.27322406" vertical-offset="116" max-vertical-offset="665" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="338" column="48" selection-start="13942" selection-end="13942" vertical-scroll-proportion="0.5813953" vertical-offset="309" max-vertical-offset="969">
+        <state line="57" column="55" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.31472868" vertical-offset="215" max-vertical-offset="2261">
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$setupUI$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="docComment;method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#$$$getRootComponent$$$#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#setNetworkInfo#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#NetworkAnalysisAndGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#main#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
