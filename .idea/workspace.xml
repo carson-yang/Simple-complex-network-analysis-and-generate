@@ -78,13 +78,14 @@
       <file leaf-file-name="NetworkAnalysisAndGenerate.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="55" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.31472868" vertical-offset="215" max-vertical-offset="2261">
+            <state line="125" column="0" selection-start="4002" selection-end="4002" vertical-scroll-proportion="0.8434164" vertical-offset="1" max-vertical-offset="931">
               <folding>
                 <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+                <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
                 <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -96,29 +97,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractButton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/javax/swing/AbstractButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2017" column="0" selection-start="71674" selection-end="71674" vertical-scroll-proportion="0.0" vertical-offset="38323" max-vertical-offset="59033">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultButtonModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/javax/swing/DefaultButtonModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="401" column="0" selection-start="10206" selection-end="10206" vertical-scroll-proportion="0.0" vertical-offset="7619" max-vertical-offset="10241">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NetworkSettings.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2128">
-              <folding />
+            <state line="17" column="29" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+              <folding>
+                <element signature="docComment;class#NetworkSettings#0" expanded="false" />
+                <element signature="method#NetworkSettings#0;class#NetworkSettings#0" expanded="false" />
+                <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,8 +151,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -609,12 +598,12 @@
       <workItem from="1392433558912" duration="4236000" />
       <workItem from="1392512543784" duration="302000" />
       <workItem from="1392518868040" duration="6595000" />
-      <workItem from="1392602827702" duration="19643000" />
+      <workItem from="1392602827702" duration="23722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108760000" />
+    <option name="totallyTimeSpent" value="112839000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -637,7 +626,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15181269" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -648,7 +637,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39583334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39558575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -661,8 +650,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12990937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12990937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36672327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -729,6 +718,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -756,7 +746,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2128">
-          <folding />
+          <folding>
+            <element signature="docComment;class#NetworkSettings#0" expanded="false" />
+            <element signature="method#NetworkSettings#0;class#NetworkSettings#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -779,6 +773,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -792,7 +787,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2128">
-          <folding />
+          <folding>
+            <element signature="docComment;class#NetworkSettings#0" expanded="false" />
+            <element signature="method#NetworkSettings#0;class#NetworkSettings#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -810,6 +809,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -823,7 +823,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2128">
-          <folding />
+          <folding>
+            <element signature="docComment;class#NetworkSettings#0" expanded="false" />
+            <element signature="method#NetworkSettings#0;class#NetworkSettings#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -846,6 +850,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -859,7 +864,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2128">
-          <folding />
+          <folding>
+            <element signature="docComment;class#NetworkSettings#0" expanded="false" />
+            <element signature="method#NetworkSettings#0;class#NetworkSettings#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -882,6 +891,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -895,7 +905,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2128">
-          <folding />
+          <folding>
+            <element signature="docComment;class#NetworkSettings#0" expanded="false" />
+            <element signature="method#NetworkSettings#0;class#NetworkSettings#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -918,6 +932,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -931,7 +946,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2128">
-          <folding />
+          <folding>
+            <element signature="docComment;class#NetworkSettings#0" expanded="false" />
+            <element signature="method#NetworkSettings#0;class#NetworkSettings#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -954,6 +973,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -967,7 +987,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="40" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="2090">
-          <folding />
+          <folding>
+            <element signature="docComment;class#NetworkSettings#0" expanded="false" />
+            <element signature="method#NetworkSettings#0;class#NetworkSettings#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -990,6 +1014,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -1009,6 +1034,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -1033,6 +1059,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -1057,6 +1084,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -1081,6 +1109,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -1105,6 +1134,7 @@
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
@@ -1135,13 +1165,6 @@
         <state line="2061" column="0" selection-start="90042" selection-end="90042" vertical-scroll-proportion="0.0" vertical-offset="38613" max-vertical-offset="69464" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="93" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -1166,15 +1189,27 @@
         <state line="37" column="2" selection-start="664" selection-end="664" vertical-scroll-proportion="0.27322406" vertical-offset="116" max-vertical-offset="665" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <folding>
+            <element signature="docComment;class#NetworkSettings#0" expanded="false" />
+            <element signature="method#NetworkSettings#0;class#NetworkSettings#0" expanded="false" />
+            <element signature="initializer##0;class#NetworkSettings#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yangfan/network/NetworkAnalysisAndGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="55" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.31472868" vertical-offset="215" max-vertical-offset="2261">
+        <state line="125" column="0" selection-start="4002" selection-end="4002" vertical-scroll-proportion="0.8434164" vertical-offset="1" max-vertical-offset="931">
           <folding>
             <element signature="docComment;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#displayNetwork#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#computeTheShortestPath#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="method#networkAnalysis#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="initializer##0;class#NetworkAnalysisAndGenerate#0" expanded="true" />
+            <element signature="class#RandomNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#ScaleFreeNetworkGenerate#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#FileFilterGML#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />
             <element signature="class#OpenGMLFile#0;class#NetworkAnalysisAndGenerate#0" expanded="false" />

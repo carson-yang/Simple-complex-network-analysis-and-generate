@@ -10,7 +10,6 @@ import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-import javafx.stage.FileChooser;
 import org.graphstream.graph.*;
 import org.graphstream.graph.implementations.*;
 import org.graphstream.ui.swingViewer.View;
@@ -18,10 +17,8 @@ import org.graphstream.ui.swingViewer.Viewer;
 import org.graphstream.stream.file.FileSource;
 import org.graphstream.stream.file.FileSourceFactory;
 
-import java.awt.geom.Arc2D;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 
@@ -44,8 +41,12 @@ public class NetworkAnalysisAndGenerate {
     private JFrame mainFrame;
 
     private void displayNetwork(Graph graph) {
+
         //initialize panel
+
         panelNetworkDisplay.removeAll();
+
+        //integrate to GUI
 
         Viewer viewer = new Viewer(graph, Viewer.ThreadingModel.GRAPH_IN_ANOTHER_THREAD);
         View view = viewer.addDefaultView(false);
@@ -115,7 +116,7 @@ public class NetworkAnalysisAndGenerate {
                 degreeSum += 4;
         }
         double averageDegree = 1.0 * degreeSum / graph.getNodeCount();
-        textFieldAveDeg.setText(Double.toString(averageDegree));
+        textFieldAveDeg.setText(String.format("%.2f", averageDegree));
 
         //compute the shortest path of network
 
@@ -216,10 +217,6 @@ public class NetworkAnalysisAndGenerate {
         return panelMain;
     }
 
-    /* private void preProcessGraphTwo(Graph graph,MultiGraph multiGraph){
-
-    }*/
-
     class RandomNetworkGenerate implements ActionListener {
 
         @Override
@@ -319,7 +316,6 @@ public class NetworkAnalysisAndGenerate {
             //node color
 
             graph.addAttribute("ui.stylesheet", styleSheet);
-            //graph.display();
             graph.setStrict(false);
 
             //generate scale-free network
@@ -417,13 +413,16 @@ public class NetworkAnalysisAndGenerate {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            JFileChooser fileChooser = new JFileChooser(".");
+            JFileChooser fileChooser = new JFileChooser("E:\\jar\\data");
+
             fileChooser.setAcceptAllFileFilterUsed(false);
             fileChooser.addChoosableFileFilter(new FileFilterGML());
+
             if (fileChooser.showOpenDialog(mainFrame) == JFileChooser.APPROVE_OPTION) {
                 File file = fileChooser.getSelectedFile();
-                Graph graph = new SingleGraph("Complex Network");
+                Graph graph = new MultiGraph("Complex Network");
                 FileSource fs = null;
+
                 try {
                     fs = FileSourceFactory.sourceFor(file.getAbsolutePath());
                 } catch (IOException ee) {
@@ -488,13 +487,6 @@ public class NetworkAnalysisAndGenerate {
 
         mainClass = this;
         mainFrame = frame;
-        //graph.display(false);
-
-        /*Viewer viewer = new Viewer(graph, Viewer.ThreadingModel.GRAPH_IN_ANOTHER_THREAD);
-        View view = viewer.addDefaultView(false);
-        CellConstraints myConstraint = new CellConstraints();
-        panelNetworkDisplay.add(view, myConstraint.xy(1, 1, CellConstraints.FILL, CellConstraints.FILL));
-        viewer.enableAutoLayout();*/
     }
 
     public static void main(String[] args) {
